@@ -1,0 +1,19 @@
+.bookmark {
+    background-color: #E47900;
+    text-align: center;
+    color: white;
+    padding: 8vh 5vw;
+}
+
+.bookmark__header {
+    font-size: 120px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin: 0;
+}
+
+@media (max-width: 1199px) {
+    .bookmark__header {
+        font-size: 10vw;
+    }
+}
