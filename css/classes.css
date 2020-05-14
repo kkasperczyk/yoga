@@ -1,0 +1,32 @@
+.classes {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.classes__card {
+  flex-basis: 350px;
+  padding: 0 15px 15px 15px;
+  text-align: center;
+}
+
+.classes__image {
+  height: 255px;
+  transition: 0.3s;
+}
+
+.classes__image:hover {
+  opacity: 0.9;
+  outline: 4px solid #e47900;
+}
+
+.classes__name {
+  margin: 15px 0;
+  color: #e47900;
+}
+
+.classes__description {
+  margin: 15px 0;
+  font-weight: bold;
+  color: #777;
+}
