@@ -1,0 +1,36 @@
+.gallery {
+  list-style: none;
+  padding-left: 0;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+@media (max-width: 767px) {
+  .gallery {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+.gallery__aspect-ratio {
+  padding-top: calc(100% * 9 / 16);
+  position: relative;
+}
+
+.gallery__image {
+  position: absolute;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  object-fit: cover;
+  border: 7px rgb(253, 174, 84) solid;
+  transition: 0.3s;
+  opacity: 0.7;
+}
+
+.gallery__image:hover {
+  transform: scale(1.7);
+  z-index: 2;
+  opacity: 1;
+}
