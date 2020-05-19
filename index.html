@@ -19,6 +19,8 @@
     <link rel="stylesheet" href="/css/classes.css">
     <link rel="stylesheet" href="/css/benefits.css">
     <link rel="stylesheet" href="/css/gallery.css">
+    <link rel="stylesheet" href="/css/contact-form.css">
+    <link rel="stylesheet" href="/css/route.css">
     <title>Yoga Heaven - amazing yoga center</title>
 </head>
 
@@ -232,9 +234,34 @@
         <h2 class="bookmark__header">Contact</h2>
     </section>
 
+    <form action="" class="contact-form">
+        <div class="container container--smaller">
+
+            <h2 class="contact-form__title">
+                Send us a message
+            </h2>
+
+            <div class="contact-form__fields">
+                <input type="text" name="name" class="contact-form__field" required placeholder="Full Name">
+                <input type="email" name="email" class="contact-form__field" required placeholder="E-mail">
+                <input type="tel" name="phone" class="contact-form__field" placeholder="Phone">
+                <textarea name="content" rows="10" class="contact-form__field" required
+                    placeholder="Your message"></textarea>
+            </div>
+
+            <button type="submit" class="contact-form__submit-button">Send</button>
+
+        </div>
+    </form>
+
     <section class="bookmark" id="find-us-here">
         <h2 class="bookmark__header">Find us here</h2>
     </section>
+
+    <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2560.7606293701488!2d19.940607415601274!3d50.07204437942492!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47165b04a4a0d5bf%3A0x41a815e1860a19eb!2sPolitechnika%20Krakowska%20im.%20Tadeusza%20Ko%C5%9Bciuszki!5e0!3m2!1spl!2spl!4v1589876269038!5m2!1spl!2spl"
+        class="route"></iframe>
+
 </body>
 
 </html>
