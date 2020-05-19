@@ -1,0 +1,45 @@
+.footer {
+  background-color: #e47900;
+  display: flex;
+  justify-content: center;
+}
+
+.footer__content {
+  margin: 50px auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.footer__image {
+  width: 50px;
+}
+
+.footer__title {
+  color: white;
+  font-size: 30px;
+  letter-spacing: 2px;
+  word-spacing: 5px;
+  font-style: italic;
+  text-align: center;
+}
+
+.footer__info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.footer__info-link {
+  text-decoration: none;
+  color: whitesmoke;
+  margin-bottom: 8px;
+}
+
+.footer__link {
+  margin-top: 20px;
+}
+
+.footer__link--instagram {
+  margin-left: 10px;
+}

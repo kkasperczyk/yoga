@@ -29,6 +29,12 @@
   opacity: 0.7;
 }
 
+@media (max-width: 991px) {
+  .gallery__image {
+    opacity: 1;
+  }
+}
+
 .gallery__image:hover {
   transform: scale(1.7);
   z-index: 2;
