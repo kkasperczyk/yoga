@@ -28,6 +28,7 @@
   border: none;
   border-radius: 31px;
   margin-bottom: 16px;
+  resize: vertical;
 }
 
 .contact-form__field::placeholder {
